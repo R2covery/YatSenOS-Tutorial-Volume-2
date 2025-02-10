@@ -1,7 +1,6 @@
 [workspace]
 resolver = "2"
-members = [
-    "pkg/boot",
+members = [  "Rust_coding/T3", "Rust_coding/T1", "Rust_coding/lab0","pkg/boot",
 ]
 
 [profile.release-with-debug]
@@ -10,3 +9,4 @@ debug = true
 
 [profile.release-with-debug.package."*"]
 debug = false
+
