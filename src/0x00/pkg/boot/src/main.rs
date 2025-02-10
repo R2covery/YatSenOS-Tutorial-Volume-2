@@ -16,7 +16,7 @@ fn efi_main() -> Status {
     let std_num = 22336301;
 
     loop {
-        info!("Hello World from UEFI bootloader! @ {}", std_num);
+        info!("Hello World from UEFI bootloader!  @ {}", std_num);
 
         for _ in 0..0x10000000 {
             unsafe {
