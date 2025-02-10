@@ -5,3 +5,5 @@ edition = "2024"
 
 [dependencies]
 colored = "2.0.0"
+log = "0.4"
+env_logger = "0.9"
